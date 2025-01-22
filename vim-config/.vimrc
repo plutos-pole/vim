@@ -3,11 +3,11 @@ set number
 set relativenumber
 set cursorline
 set wrap
+set textwidth=120
 set shiftwidth=4
 set tabstop=4
 set expandtab
 set nobackup
-set nowrap
 set incsearch
 set showcmd
 set showmode
