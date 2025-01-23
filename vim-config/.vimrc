@@ -3,7 +3,7 @@ set number
 set relativenumber
 set cursorline
 set wrap
-set textwidth=120
+set textwidth=140
 set shiftwidth=4
 set tabstop=4
 set expandtab
@@ -19,7 +19,7 @@ set noautoindent
 set smartindent
 set noswapfile
 colorscheme quiet 
-
+#colorscheme elflord
 
 
 inoremap <c-b> <Esc>:Lex<cr>:vertical resize 30<cr>
