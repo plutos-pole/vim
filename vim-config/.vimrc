@@ -24,3 +24,6 @@ colorscheme quiet
 
 inoremap <c-b> <Esc>:Lex<cr>:vertical resize 30<cr>
 nnoremap <c-b> <Esc>:Lex<cr>:vertical resize 30<cr>
+
+# Do not force spaces instead of tabs in MakeFile
+autocmd FileType make setlocal noexpandtab
